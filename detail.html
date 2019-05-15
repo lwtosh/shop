@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/mui.min.css">
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
+    <link rel="stylesheet" href="css/detail.css">
+    <title>详情页</title>
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <header id="header" class="mui-bar mui-bar-nav">
+        <h1 class="mui-title">详情页</h1>
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+    </header>
+    <!-- 轮播图 -->
+    <div class="mui-slider">
+        <div class="mui-slider-group mui-slider-loop">
+            <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="images/1.png" /></a></div>
+            <div class="mui-slider-item"><a href="#"><img src="images/1.png" /></a></div>
+            <div class="mui-slider-item"><a href="#"><img src="images/1.png" /></a></div>
+            <div class="mui-slider-item"><a href="#"><img src="images/1.png" /></a></div>
+            <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="images/1.png" /></a></div>
+        </div>
+    </div>
+    <!-- 说明 -->
+    <div class="mui-card-content-inner">
+       <div class="goods-item">
+        桐木关金骏眉礼盒装红茶正山小种茶叶礼盒装礼品过年送礼春节 
+       </div>
+        <s class="yuanjia">市场价： ￥128</s>
+        <p class="mon">酷鱼售价：<b>1280KD+13KE</b></p>
+    </div>
+    <!-- 详情 -->
+    <div class="mui-content-padded">
+        <!-- <p class="">详情图</p> -->
+        <p>
+            <img src="images/d2.png" data-preview-src="" data-preview-group="1">
+        </p>
+    </div>
+    <!-- 底部 -->
+    <a class="footer" href="cat.html" >
+        立即购买
+    </a>
+    <!-- <nav class="mui-bar footer">
+        <div class="car">
+            <a class="shouye">
+                <span class="mui-icon mui-icon-home home"></span>
+                <p>首页</p>
+            </a>
+            <a class="shancheng">
+                <span class="mui-icon mui-icon-home home"></span>
+                <p>商城</p>
+            </a>
+            <a href="#middlePopover" id="parentIframe" class="car-1 ">加入购物车</a>
+            <a href="#picture" class="car-2 mui-btn-block">立即购买</a>
+        </div>
+    </nav> -->
+
+    <script src="js/mui.min.js"></script>
+    <!-- <script></script> -->
+    <script>
+        var gallery = mui('.mui-slider');
+        gallery.slider({
+            interval: 5000//自动轮播周期，若为0则不自动播放，默认为0；
+        });
+
+
+    </script>
+</body>
+
+</html>

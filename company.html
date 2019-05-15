@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>公司介绍</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/mui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/company.css" />
+    <script src="js/mui.min.js"></script>
+    <script src="js/template-web.js"></script>
+</head>
+
+<body>
+    <header class="mui-bar mui-bar-nav bar">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">公司介绍</h1>
+    </header>
+    <div class="content">
+        <h4 class="title">湖南瑞姿生物科技有限公司</h4>
+        <div class="mui-card card">
+            <div class="mui-card-header card-title">公司简介</div>
+            <div class="mui-card-content">
+                <div class="mui-card-content-inner card-item">
+                    本公司专营进口食品和保健品,现主营法国罗赛洛集团进口鱼胶原蛋白粉,是法国罗赛洛集团一级经销商.本公司所售胶原蛋白粉为罗赛洛15KG的大包装直接分装,中间无任何添加,本公司以诚信为本,本着品质第一的原则为广大顾客服务.我们还会继续在全球为顾客寻找更好的产品!您的支持就是我们的动力!
+                </div>
+            </div>
+        </div>
+        <div class="mui-card card">
+            <div class="mui-card-header card-title card-title1">公司资质</div>
+            <div class="mui-card-content card-img">
+                <ul>
+                    <li><img src="images/c-1.png" alt=""></li>
+                    <li><img src="images/c-2.png" alt=""></li>
+                    <li><img src="images/c-2.png" alt=""></li>
+                    <!-- <li><img src="images/c-2.png" alt=""></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/html" id="comTpl">
+        <h4 id="name" class="title">湖南瑞姿生物科技有限公司</h4>
+        <div class="mui-card card">
+            <div id="intro" class="mui-card-header card-title">公司简介</div>
+            <div class="mui-card-content">
+                <div id="textContent" class="mui-card-content-inner card-item">
+                    本公司专营进口食品和保健品,现主营法国罗赛洛集团进口鱼胶原蛋白粉,是法国罗赛洛集团一级经销商.本公司所售胶原蛋白粉为罗赛洛15KG的大包装直接分装,中间无任何添加,本公司以诚信为本,本着品质第一的原则为广大顾客服务.我们还会继续在全球为顾客寻找更好的产品!您的支持就是我们的动力!
+                </div>
+            </div>
+        </div>
+        <div class="mui-card card">
+            <div class="mui-card-header card-title card-title1">公司资质</div>
+            <div class="mui-card-content card-img">
+                <ul>
+                    <% for(var i=0; i< result.length; i++) { %>
+                    <li><img src="<%= %>" alt=""></li>
+                    <% } %>
+                    <!-- <li><img src="images/c-2.png" alt=""></li> -->
+                </ul>
+            </div>
+        </div>
+    </script>
+</body>
+</html>

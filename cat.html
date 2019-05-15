@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta charset="UTF-8">
+    <title>确认订单</title>
+    <link rel="stylesheet" href="assets/mui/css/mui.min.css">
+    <link rel="stylesheet" href="css/cart.css">
+
+</head>
+
+<body>
+    <header class="mui-bar mui-bar-nav header bar">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">确认订单</h1>
+    </header>
+    <section class="aui-address-content content">
+        <div class="aui-address-box">
+            <div class="aui-address-box-list">
+                <a href="address.html" class="aui-address-box-default">
+                    <ul>
+                        <li>
+                            <strong>收货人：陈晨 13498973456</strong>
+                        </li>
+                        <li>
+                            收货地址：湖南省长沙市枫林路150号 天海国际酒店 804
+                        </li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+        <div class="aui-dri"></div>
+        <div class="aui-list-product-float-item">
+            <a href="javascript:;" class="aui-list-product-fl-item">
+                <div class="aui-list-product-fl-img">
+                    <img src="images/1.png" alt="">
+                </div>
+                <div class="aui-list-product-fl-text">
+                    <h3 class="aui-list-product-fl-title">
+                        桐木关金骏眉礼盒装红茶正山小种茶叶礼盒装礼品过年送礼春节</h3>
+                    <div class="aui-list-product-fl-mes">
+                        <div>
+                            <span class="aui-list-product-item-del-price">
+                                <s>市场价：￥128 </s> </span> <br><span class="aui-list-product-item-price ">
+                                酷鱼价：1280KD+13KE
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="mui-input-row num">
+            <label>购买数量</label>
+            <div class="mui-numbox numBox" data-numbox-min='1' data-numbox-max='9'>
+                <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+                <input id="test" class="mui-input-numbox" type="number" value="1" />
+                <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+            </div>
+        </div>
+        <div class="fukuan">
+            <span>实际付款：</span> <button type="button" class="mui-btn mui-btn-outlined eitd-btn data-id= "> 1280KD</button>
+            + <button type="button" class="mui-btn mui-btn-outlined eitd-btn data-id= "> 13(KE)</button>
+        </div>
+        <div class="yunfei">
+            <span> 支付运费(2KG以内)：100KD</span>
+        </div>
+        <div class="aui-payment-bar">
+            <div class="shop-total">
+                <span class="aui-red aui-size">支付总额： <b>1280KD+13KE</b></span>
+            </div>
+            <a href="#picture" class="settlement">提交订单</a>
+        </div>
+        <!-- 弹出框 -->
+        <div id="picture" class="box mui-popover mui-popover-action mui-popover-bottom">
+           <div class="item">
+               <h5>需支付总额</h5>
+               <p>1380KD+13KE</p>
+         
+           <div class="KD">
+               <img src="images/douzi .png" alt=""> <span>酷豆(KD)：1380（剩余1280）</span>
+           </div> 
+           <div class="KEY">
+                <img src="images/key .png" alt=""> <span>钥匙(KE)：13（剩余10）</span>
+            </div> 
+         </div>
+           <a href="#picture" class="btn">立即支付</a>
+        </div>
+    </section>
+    <script src="js/mui.min.js"></script>
+</body>
+
+</html>

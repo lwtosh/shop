@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>商品订单</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/mui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/order.css" />
+</head>
+
+<body>
+    <header class="mui-bar mui-bar-nav bar">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">我的商品订单</h1>
+    </header>
+    <div class="mui-content content">
+        <div id="slider" class="mui-slider">
+            <div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted nav-contrl">
+                <a class="mui-control-item" href="#item1mobile">
+                    全部
+                </a>
+                <a class="mui-control-item" href="#item2mobile">
+                    待支付
+                </a>
+                <a class="mui-control-item" href="#item3mobile">
+                    待付款
+                </a>
+            </div>
+            <div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-4"></div>
+            <div class="mui-slider-group">
+                <div id="item1mobile" class="mui-slider-item mui-control-content mui-active box">
+                    <ul class="mui-table-view">
+                        <li class="mui-table-view-cell mui-media lis">
+                            <img class="mui-media-object mui-pull-left" src="images/goods.png">
+                            <div class="mui-media-body lis-ringht">
+                                <div class="goods-item ">桐木关金骏眉礼盒装红茶正山小种 茶叶礼盒装礼品过年送礼春节</div>
+                                <p class="mononey">酷鱼价： 1280KD+13KE</p>
+                                <p class="wiat">正在等待支付</p>
+                            </div>
+                            <hr>
+                            <p class="lis-item">共1件商品，含运费合计:1380KD+13KE</p>
+                            <div class="btn">
+                                <span class="btn1">取消</span>
+                                <span class="btn2">支付</span>
+                            </div>
+                        </li>
+                        <li class="mui-table-view-cell mui-media lis">
+                            <img class="mui-media-object mui-pull-left" src="images/goods-2.png">
+                            <div class="mui-media-body lis-ringht">
+                                <div class="goods-item ">桐木关金骏眉礼盒装红茶正山小种 茶叶礼盒装礼品过年送礼春节</div>
+                                <p class="mononey">酷鱼价： 1280KD+13KE</p>
+                                <p class="wiat">已支付待发货</p>
+                            </div>
+                            <hr>
+                            <p class="lis-item">共1件商品，含运费合计:1380KD+13KE</p>
+                            <!-- <div class="btn">
+                                <span class="btn1">取消</span>
+                                <span class="btn2">支付</span>
+                            </div> -->
+                        </li>
+                        <li class="mui-table-view-cell mui-media lis">
+                            <img class="mui-media-object mui-pull-left" src="images/goods-3.png">
+                            <div class="mui-media-body lis-ringht">
+                                <div class="goods-item ">桐木关金骏眉礼盒装红茶正山小种 茶叶礼盒装礼品过年送礼春节</div>
+                                <p class="mononey">酷鱼价： 1280KD+13KE</p>
+                                <p class="wiat">已发货</p>
+                            </div>
+                            <hr>
+                            <p class="lis-item">共1件商品，含运费合计:1380KD+13KE</p>
+                            <div class="btn">
+                                <span class="btn1">取消</span>
+                                <span class="btn2">支付</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="item2mobile" class="mui-slider-item mui-control-content box">
+                    <ul class="mui-table-view">
+                        <li class="mui-table-view-cell mui-media lis">
+                            <img class="mui-media-object mui-pull-left" src="images/goods-2.png">
+                            <div class="mui-media-body lis-ringht">
+                                <div class="goods-item ">桐木关金骏眉礼盒装红茶正山小种 茶叶礼盒装礼品过年送礼春节</div>
+                                <p class="mononey">酷鱼价： 1280KD+13KE</p>
+                                <p class="wiat">已支付待发货</p>
+                            </div>
+                            <hr>
+                            <p class="lis-item">共1件商品，含运费合计:1380KD+13KE</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="item3mobile" class="mui-slider-item mui-control-content box">
+                    <ul class="mui-table-view">
+                        <li class="mui-table-view-cell mui-media lis">
+                            <img class="mui-media-object mui-pull-left" src="images/goods-3.png">
+                            <div class="mui-media-body lis-ringht">
+                                <div class="goods-item ">桐木关金骏眉礼盒装红茶正山小种 茶叶礼盒装礼品过年送礼春节</div>
+                                <p class="mononey">酷鱼价： 1280KD+13KE</p>
+                                <p class="wiat">已支付待发货</p>
+                            </div>
+                            <hr>
+                            <p class="lis-item">共1件商品，含运费合计:1380KD+13KE</p>
+                            <div class="btn">
+                                <span class="btn1">取消</span>
+                                <span class="btn2">支付</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/mui.min.js"></script>
+    <script src="js/order.js"></script>
+    <script type="text/javascript">
+        mui.init()
+    </script>
+
+</body>
+
+</html>

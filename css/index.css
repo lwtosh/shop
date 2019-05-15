@@ -1,0 +1,50 @@
+b {
+  color: red;
+  font-weight: 600;
+  font-size: 14px;
+}
+.goods-item {
+  margin-bottom: 3.3vw;
+  white-space: normal;
+  font-family: PingFang-SC-Regular;
+  font-size: 4vw;
+  line-height: 5.5vw;
+  margin-bottom: 8.4vw;
+  margin-top: .5vw;
+}
+.mui-table-view .object-img {
+  max-width: 40%!important;
+  height: 39.5vw !important;
+}
+.mui-table-view .object-img img {
+  text-align: center !important;
+  vertical-align: middle;
+}
+.mui-table-view .right {
+  width: 56%;
+}
+.kuyu {
+  margin-top: -5px;
+  font-size: 2.67vw;
+}
+.yaoshi {
+  font-size: 2.4vw;
+  display: inline-block;
+  margin-top: 1.3vw;
+  vertical-align: bottom;
+}
+.yuanjia {
+  font-size: 2.4vw;
+  color: #B3B3B3;
+  display: inline-block;
+  margin-bottom: -5px;
+}
+.mui-table-view-cell {
+  padding: 3vw;
+}
+p {
+  color: #B3B3B3;
+}
+.mui-table-view-cell:after {
+  bottom: 1vw;
+}
